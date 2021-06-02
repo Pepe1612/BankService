@@ -4,7 +4,6 @@ import org.kaczucha.repository.InMemoryClientRepository;
 import org.kaczucha.service.BankService;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
@@ -42,7 +41,6 @@ public class Main {
         final String mail = scanner.next();
         System.out.println(bankService.findByEmail(mail));
     }
-
 
     private void addUser(Scanner scanner) {
         System.out.println("Enter name:");

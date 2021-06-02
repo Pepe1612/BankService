@@ -3,8 +3,8 @@ package org.kaczucha;
 import java.util.Objects;
 
 public class Client {
-    private String name;
-    private String email;
+    private final String name;
+    private final String email;
     private double balance;
 
     public Client(String name, String email, double balance) {
